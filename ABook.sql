@@ -18,3 +18,4 @@ values ('Ravi','kumar','RRcomplex','Nellore','AndhraPradesh',524001,'6546546541'
 ('Martin','Setty','hij Street','Indore','Punjab','505536','7644564568','martin@gmail.com')
 select*from Addressdetails
 update Addressdetails set firstName='Pavan' where firstName='Ravi';
+delete from Addressdetails where firstName = 'Ravi';
