@@ -30,3 +30,8 @@ select * from Addressdetails where city='Vizag' order by  firstName desc;
 alter table Addressdetails add relation varchar(255) not null default 'friends';
 
 update Addressdetails set relation ='family' where firstName='yeshwanth'
+
+select * from Addressdetails;
+
+select count(relation) from Addressdetails where relation ='friends'
+select count(relation) from Addressdetails where relation ='family'
