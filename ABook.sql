@@ -21,3 +21,5 @@ update Addressdetails set firstName='Pavan' where firstName='Ravi';
 delete from Addressdetails where firstName = 'Ravi';
 
 select * from Addressdetails where city = 'Nellore' or statee='AndhraPradesh';
+select count(city) from Addressdetails;
+select COUNT(statee) from Addressdetails;
