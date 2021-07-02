@@ -26,3 +26,7 @@ select COUNT(statee) from Addressdetails;
 
 select * from Addressdetails where city='Vizag' order by firstName asc;
 select * from Addressdetails where city='Vizag' order by  firstName desc;
+
+alter table Addressdetails add relation varchar(255) not null default 'friends';
+
+update Addressdetails set relation ='family' where firstName='yeshwanth'
