@@ -23,3 +23,6 @@ delete from Addressdetails where firstName = 'Ravi';
 select * from Addressdetails where city = 'Nellore' or statee='AndhraPradesh';
 select count(city) from Addressdetails;
 select COUNT(statee) from Addressdetails;
+
+select * from Addressdetails where city='Vizag' order by firstName asc;
+select * from Addressdetails where city='Vizag' order by  firstName desc;
