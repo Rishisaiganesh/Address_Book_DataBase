@@ -19,3 +19,5 @@ values ('Ravi','kumar','RRcomplex','Nellore','AndhraPradesh',524001,'6546546541'
 select*from Addressdetails
 update Addressdetails set firstName='Pavan' where firstName='Ravi';
 delete from Addressdetails where firstName = 'Ravi';
+
+select * from Addressdetails where city = 'Nellore' or statee='AndhraPradesh';
